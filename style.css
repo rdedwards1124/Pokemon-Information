@@ -1,40 +1,39 @@
-img {
-    height: auto;
-    width:200px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-button {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 5px;
-    margin-top: 20px;
+* {
+    border: 1px solid blu;
 }
 
 body {
-    background-image: url('');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
-  }
+    margin: 0;
+    background: rgb(255, 255, 255);
+}
 
-.bg-image {
-    /* The image used */
-    background-image: url("");
-  
-    /* Add the blur effect */
-    filter: blur(8px);
-    -webkit-filter: blur(8px);
-  
-    /* Full height */
-    height: 100%;
-  
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+.body {
+    margin: auto;
+    max-width: 800px;
+    min-width: 0;
+    background: rgb(172, 255, 255);
+    border: 1px solid black;
+}
+
+/*==============================================*/
+/*               HEADER                         */
+/*==============================================*/
+
+.home-button, .search-bar, .nav-bar {
+    /* border: 1px solid blue; */
+}
+
+.nav-bar ul {
+    padding: 20px;
+    text-align: center;
+    margin: 0;
+    background: lightgray;
+}
+
+.nav-bar ul li {
+    display: inline;
+    /* margin-right: 3%; */
+    /* margin-left: 3%; */
+    padding: 10px;
+    background: white;
+}

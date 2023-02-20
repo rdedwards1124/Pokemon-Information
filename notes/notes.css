@@ -1,0 +1,40 @@
+img {
+  height: auto;
+  width:200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+  margin-top: 20px;
+}
+
+body {
+  background-image: url('');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-image {
+  /* The image used */
+  background-image: url("");
+
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
