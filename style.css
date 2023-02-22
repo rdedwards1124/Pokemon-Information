@@ -59,6 +59,10 @@ a {
 /*                MAIN                          */
 /*==============================================*/
 
+main h1 {
+    text-align: center;
+}
+
 .main1 img {
     width: 200px;
     padding: 10px;
