@@ -1,75 +1,19 @@
-* {
-    /* border: 1px solid blue; */
-}
 
-body {
-    margin: 0;
-    background: white;
-}
-
-.body {
-    margin: auto;
-    max-width: 1000px;
-    min-width: 0;
-    background: rgb(86, 188, 255);
-    border: 1px solid black;
-}
-
-a {
-    text-decoration: none;
-}
 
 /*==============================================*/
 /*               HEADER                         */
 /*==============================================*/
 
-.home-button, .search-bar, .nav-bar {
-    /* border: 1px solid blue; */
-}
 
-.home-button {
-    text-align: center;
-    font-family: Arial;
-    font-size: 40px;
-    font-weight: bolder;
-}
-
-.search-bar {
-    text-align: center;
-    font-size: 25px;
-}
-
-.nav-bar ul {
-    padding: 25px;
-    text-align: center;
-    background: lightgray;
-}
-
-.nav-bar ul li {
-    display: inline;
-    margin-right: 3%;
-    margin-left: 3%;
-    padding: 10px;
-    background: white;
-    border-radius: 15px;
-    border: 5px solid rgb(119, 119, 119);
-}
 
 /*==============================================*/
 /*                MAIN                          */
 /*==============================================*/
 
 
-main h1 {
-    text-align: center;
-    /* font-family: 'Gajraj One', cursive; */
-    /* font-family: 'Permanent Marker', cursive; */
-
-}
-
-.main1 {
+.main1-types {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     /* padding-left: 20px;
     padding-right: 20px; */
@@ -81,7 +25,7 @@ main h1 {
     /* border: 1px solid green; */
 }
 
-.main1 div {
+.main1-types div {
     text-align: center;
     /* border: 1px solid green; */
     box-shadow: 5px 5px 8px gray;
@@ -96,7 +40,7 @@ main h1 {
     background: white;
 }
 
-.main1 img {
+.main1-types img {
     /* width: 200px;*/
     margin: 10px;
     margin-top: 14px;
