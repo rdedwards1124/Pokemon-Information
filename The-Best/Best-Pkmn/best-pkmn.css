@@ -1,0 +1,105 @@
+* {
+    /* border: 1px solid blue; */
+}
+
+body {
+    margin: 0;
+    background: white;
+}
+
+.body {
+    margin: auto;
+    max-width: 1000px;
+    min-width: 0;
+    background: rgb(86, 188, 255);
+    border: 1px solid black;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*==============================================*/
+/*               HEADER                         */
+/*==============================================*/
+
+.home-button, .search-bar, .nav-bar {
+    /* border: 1px solid blue; */
+}
+
+.home-button {
+    text-align: center;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 60px;
+    /* color: red; */
+    /* background: white; */
+}
+
+.search-bar {
+    text-align: center;
+    font-size: 25px;
+}
+
+.nav-bar ul {
+    padding: 25px;
+    text-align: center;
+    background: lightgray;
+}
+
+.nav-bar ul li {
+    display: inline;
+    margin-right: 3%;
+    margin-left: 3%;
+    padding: 10px;
+    background: white;
+    border-radius: 15px;
+    border: 5px solid rgb(119, 119, 119);
+}
+
+/*==============================================*/
+/*                MAIN                          */
+/*==============================================*/
+
+hr {
+    height: 1px;
+    background-color: black;
+    border: none;
+}
+
+main h1 {
+    text-align: center;
+    font-family: 'Permanent Marker', cursive, cursive;
+    font-size: 40px;
+}
+
+.main1 img {
+    width: 200px;
+    padding: 10px;
+}
+
+.main1 {
+    /* display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    row-gap: 20px; */
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    /* border: 1px solid green; */
+}
+
+.main1 div {
+    text-align: center;
+    /* border: 1px solid green; */
+    box-shadow: 5px 5px 8px gray;
+    width: 250px;
+    height: auto;
+    /* margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px; */
+    background: rgb(148, 212, 255);
+}
