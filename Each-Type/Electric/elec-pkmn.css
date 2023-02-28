@@ -56,50 +56,80 @@ a {
     border: 5px solid rgb(119, 119, 119);
 }
 
-/*==============================================*/
-/*                MAIN                          */
-/*==============================================*/
-
 hr {
     height: 1px;
     background-color: black;
     border: none;
 }
 
-main h1 {
+h1 {
     text-align: center;
     font-family: 'Permanent Marker', cursive, cursive;
     font-size: 40px;
 }
 
-.main1 img {
-    width: 200px;
-    padding: 10px;
+/*==============================================*/
+/*                MAIN                          */
+/*==============================================*/
+
+
+main .pkmn {
+    width: 100%;
 }
 
-.main1 {
-    /* display: flex;
+h2 {
+    text-align: center;
+}
+
+.main1 div {
+    max-width: 400px;
+    border: 1px solid green;
+}
+
+.main2 div {
+    max-width: 400px;
+    border: 1px solid green;
+}
+
+.main3 div {
+    max-width: 400px;
+    border: 1px solid green;
+}
+
+.main4 div {
+    max-width: 400px;
+    border: 1px solid green;
+}
+
+.main5 div {
+    max-width: 400px;
+    border: 1px solid green;
+}
+
+
+/* .main1 {
+    display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     align-items: center;
-    row-gap: 20px; */
+    row-gap: 20px;
     padding-left: 5%;
     padding-right: 5%;
     text-align: center;
     margin-top: 30px;
     margin-bottom: 30px;
-    /* border: 1px solid green; */
-}
+    border: 1px solid green;
+} */
 
-.main1 div {
+/* .main1 div {
     text-align: center;
-    /* border: 1px solid green; */
+    border: 1px solid green;
     box-shadow: 5px 5px 8px gray;
     width: 250px;
     height: auto;
-    /* margin-top: 20px;
+    margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 10px;
-    margin-right: 10px; */
+    margin-right: 10px;
     background: rgb(148, 212, 255);
-}
+} */
