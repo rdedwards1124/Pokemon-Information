@@ -9,7 +9,7 @@ body {
 
 .body {
     margin: auto;
-    max-width: 1000px;
+    max-width: 1400px;
     min-width: 0;
     background: rgb(86, 188, 255);
     border: 1px solid black;
@@ -73,7 +73,7 @@ main h1 {
 }
 
 .main1 img {
-    width: 200px;
+    width: 80%;
     padding: 10px;
 }
 
@@ -100,11 +100,12 @@ main h1 {
     text-align: center;
     /* border: 1px solid green; */
     box-shadow: 5px 5px 8px gray;
-    width: 250px;
+    width: 300px;
     height: auto;
     /* margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 10px;
     margin-right: 10px; */
+    margin: 10px;
     background: rgb(148, 212, 255);
 }
